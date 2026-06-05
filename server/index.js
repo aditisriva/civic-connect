@@ -10,8 +10,7 @@ const port = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-  origin: '*',
-  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  origin: true,
   credentials: true,
 }));
 app.use(express.json({ limit: '15mb' }));
