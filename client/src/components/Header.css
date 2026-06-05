@@ -1,0 +1,14 @@
+/* Header.css */
+
+.hero-header {
+  position: relative;
+  width: 100%;
+  margin-bottom: var(--spacing-3xl);
+  overflow: hidden;
+}
+
+.background-gif {
+  width: 100%;
+  height: auto;
+  display: block;
+}
